@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.internalchart" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InternalChart" >
+        <activity android:name=".Logs.User_works" />
+        <activity android:name=".Logs.VCoach" />
+        <activity android:name=".Logs.MembersList" />
+        <activity android:name=".Contrast_Calories" />
+        <activity android:name=".UseRate" />
+        <activity android:name=".Activity" />
+        <activity android:name=".Age_distribution" />
+        <activity android:name=".Gender_distribution" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".MPChart" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
